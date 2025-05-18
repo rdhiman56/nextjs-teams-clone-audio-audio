@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .record-button {
+    @apply p-4 rounded-full bg-red-500 hover:bg-red-600 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+}
